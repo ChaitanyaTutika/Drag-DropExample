@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.App {
+  text-align: center;
+  width: 95%;
+  margin: 15px auto;
+}
+.helo {
+  height: 100vh;
+}
+.container-drag {
+  text-align: center;
+}
+button {
+  background-color: skyblue;
+  border: 0px;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: 900;
+  margin: 20px 10px;
+  outline: none;
+}
+button:hover {
+  background-color: orange;
+}
+.wip {
+  width: 19%;
+  height: 100vh;
+
+  top: 10;
+  background-color: #eeeeee;
+  float: left;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
+  width: 20%;
+}
+
+.task-header {
+  display: inline-block;
+  background-color: skyblue;
+  width: 100%;
+  padding: 12px 0px;
+  margin-bottom: 13px;
+  border-bottom: 3px solid red;
+}
+
+.droppable {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  right: 0;
+  text-transform: capitalize;
+}
+
+.draggable {
+  margin: 11px 15px auto;
+  padding: 10px;
+  text-transform: capitalize;
+  border: 1px solid black;
+}
+.draggable1 {
+  width: 350px;
+  margin: 15px 0px;
+  resize: both;
+  padding: 10px;
+}
